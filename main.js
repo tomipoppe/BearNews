@@ -2,6 +2,6 @@ document.querySelector(".menu-btn").addEventListener("click", () => {
     document.querySelector(".nav-menu").classList.toggle("show");
 });   
 ScrollReveal().reveal('.showcase');
-ScrollReveal().reveal('.news-cards', {delay: 400});
-ScrollReveal().reveal('.card-banner-one', {delay: 500});
-ScrollReveal().reveal('.card-banner-two', {delay: 500});
+ScrollReveal().reveal('.news-cards', {delay: 100});
+ScrollReveal().reveal('.card-banner-one', {delay: 100});
+ScrollReveal().reveal('.card-banner-two', {delay: 100});
